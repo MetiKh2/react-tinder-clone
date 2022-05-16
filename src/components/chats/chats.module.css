@@ -1,0 +1,40 @@
+.chats{
+
+}
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border: 1px solid #fafafa;
+    height: 70px;
+}
+.chatDetails{
+    flex: 1;
+}
+.chatImage{
+    margin-right: 20px;
+}
+.chatDetails>p{
+color: gray;
+}
+.chatTimeStamp{
+    color:lightgray;
+}
+.chatScreenText{
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+.chatScreenMessage{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.chatScreenTextUser{
+    margin-left: auto;
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 20px;
+}
